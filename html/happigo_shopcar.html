@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>购物车</title>
+        <link rel="stylesheet" href="../css/happigo_shopcar.css"/>
+        <script src="../jq/jquery-1.12.4.js"></script>
+        <script src="../jq/jquery.cookie.js"></script>
+    </head>
+    <body>
+        <!--*********************************header**********************************************-->
+        <div id="header">
+            <div class="header_top">
+                <div class="header_top1">
+                    <div class="h_t_left ft">
+                        <span class="h_t_l_span1">欢迎您,</span>
+                        <a class="h_t_l_a2" href="happigo_regist.html">[退出]</a>
+                    </div>
+                    <div class="h_t_right">
+                        <ul class="h_t_r_ul">
+                            <li><a href="javascript:;">订单查询</a><span></span></li>
+                            <li><a href="javascript:;">我的快乐购</a><span></span></li>
+                            <li>电话：400—705—1111<span></span></li>
+                            <li><a href="javascript:;">下载快乐购app</a><span></span></li>
+                            <li><a href="javascript:;">客服中心</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="h_script">
+                <img src="../img/down_load_20160411.png" />
+                <p>快乐生活 快乐购</p>
+            </div>
+            <div class="h_script1">
+                <ul>
+                    <li><a href="javascript:;">客服中心</a></li>
+                    <li><a href="javascript:;">帮助中心</a></li>
+                    <li><a href="javascript:;">会员反馈</a></li>
+                </ul>
+            </div>
+            <script>
+                $(".h_t_r_ul > li:eq(3)").on("mouseenter",function(){
+                    $(".h_script").show();
+                });
+                $(".h_t_r_ul > li:eq(3)").on("mouseleave",function(){
+                    $(".h_script").hide();
+                });
+                $(".h_t_r_ul > li:eq(4)").on("mouseenter",function(){
+                    $(".h_script1").show();
+                });
+                $(".h_script1").on("mouseleave",function(){
+                    $(".h_script1").hide();
+                });
+            </script>
+            <!--************************header-bottom**********************************************-->
+            <div class="header_bottom">
+                <div class="header_bottom1">
+                    <div class="h_b_left">
+                        <a href="happigo.html">
+                            <img class="h_b_logo ft" src="../img/logo.jpg" />
+                        </a>
+                    </div>
+                    <div class="h_b_right">
+                    </div>
+                </div>             
+            </div>
+        </div>
+        <!--*****************************former**********************************************-->
+        <div id="former">
+            <div class="former">
+                <div class="f_b_tuijian">
+                    <ul class="f_b_tui_ul">
+                        <!-- <li class="f_b_tui_li">
+                            <img src="../img/xie (1).jpg" class="f_b_tui_img"/>
+                            <p class="f_b_tui_p1">
+                                花花公子1953商务休闲精品男鞋尊享
+                            </p>
+                            <p class="f_b_tui_p2">
+                                ￥498.00
+                                <span class="f_b_tui_p2_span">￥2497.00</span>
+                            </p>
+                            <a class="f_b_tui_a" href="script:;">加入购物车</a>
+                        </li> -->
+                    </ul>
+                </div>
+            <!--*****************************former——购买添加显示物品**********************************************-->
+              <div class="f_title">
+                    <div class="f_tit_left ft">
+                        <input class="f_tit_choose" type="checkbox" value="√"/>
+                        <span class="f_tit_span1">全选</span>商品
+                    </div>
+                    <div class="f_tit_right ft">
+                        快乐价(元)
+                        <span class="f_tit_span2">数量</span>
+                        小计(元)
+                        <span class="f_tit_span3">操作</span>
+                    </div>      
+                </div>
+                <div class="f_title2">
+                    <a href="happigo.html">
+                        <span class="f_tit2_span ft">
+                            快乐购商城
+                        </span>
+                    </a>    
+                    <div class="f_tit2_div ft">
+                        <div class="f_tit2_d_bg ft"></div>
+                        在线支付满129包邮
+                    </div>
+                </div>
+                <div class="f_shop_list">
+                    <!-- <div class="f_shop">
+                        <input class="f_s_cb ft" type="checkbox"/>
+                        <div class="f_s_goods ft">
+                            <a href="happigo_detailPage.html">
+                                <img class="f_s_g_img ft" src="../img/xie (1).jpg" />
+                            </a>
+                            <a href="happigo_detailPage.html">
+                                <div class="f_s_g_font ft">
+                                    李宁女士超透气休闲跑鞋两双组（红黑组） 套组 240(38)
+                                </div>
+                            </a>       
+                        </div>
+                        <p class="f_s_price ft">358.00</p>
+                        <div class="f_s_number ft">
+                            <a class="f_s_n_a f_s_n_a1 ft" href="javascript:;">-</a>
+                            <input class="f_s_n_font ft" type="text" value="1"/>
+                            <a class="f_s_n_a f_s_n_a2 ft" href="javascript:;">+</a>
+                        </div>
+                        <p class="f_s_price1 ft">
+                            716.00
+                        </p>
+                        <div class="f_s_del ft">
+                            <a class="f_s_del_a" href="javascript:;"></a>
+                        </div>
+                    </div> -->       
+                </div>
+               <!--*****************************former——结算物品**********************************************--> 
+                <div class="f_sum">
+                    <div class="f_sum_left ft">
+                    </div>
+                    <div class="f_sum_right ft">
+                        <p class="f_sum_p1 ft">
+                            已选<span class="f_sum_p1_num">0</span>件商品
+                        </p>
+                        <p class="f_sum_p2 ft">
+                            总价：￥<span class="f_sum_p2_num">0.00</span>元
+                        </p>
+                    </div>
+                    <a class="f_sum_result ft" href="script:;">去结算</a>    
+                </div> 
+                <div class="f_like">
+                    <div class="f_like_div1">
+                        猜您喜欢
+                    </div>
+                    <div class="f_like_div2">
+                        暂无商品向您推荐
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!--*********************************footer**********************************************-->
+        <div id="footer">
+            <div class="f_top">
+                <img src="../img/foot_img1.jpg" />
+            </div>
+            <div class="f_middle">
+                <div class="f_m_top">
+                    <div class="f_m_top1">
+                        <dl>
+                            <dt>使用帮助</dt>
+                            <dd><a href="javascript:;">税费收取规则</a></dd>
+                            <dd><a href="javascript:;">新手指南</a></dd>
+                            <dd><a href="javascript:;">用户协议</a></dd>
+                            <dd><a href="javascript:;">常见问题</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>会员服务</dt>
+                            <dd><a href="javascript:;">积分政策</a></dd>
+                            <dd><a href="javascript:;">会员权益</a></dd>
+                            <dd><a href="javascript:;">会员等级</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>支付方式</dt>
+                            <dd><a href="javascript:;">积分支付</a></dd>
+                            <dd><a href="javascript:;">货到付款</a></dd>
+                            <dd><a href="javascript:;">在线支付</a></dd>
+                            <dd><a href="javascript:;">优惠券支付</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>配送方式</dt>
+                            <dd><a href="javascript:;">包邮政策</a></dd>
+                            <dd><a href="javascript:;">费用说明</a></dd>
+                            <dd><a href="javascript:;">配送说明</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>售后服务</dt>
+                            <dd><a href="javascript:;">电子发票</a></dd>
+                            <dd><a href="javascript:;">售后咨询</a></dd>
+                            <dd><a href="javascript:;">退货办理</a></dd>
+                            <dd><a href="javascript:;">退货政策</a></dd>
+                        </dl>
+                        <div class="f_m_t_div ft">
+                            <p>手机快乐购</p>
+                            <img src="../img/footer_ewm_01.png"/>
+                            <span>下载移动客户端</span>
+                        </div>
+                        <div class="f_m_t_div ft">
+                            <p>快乐购微信</p>
+                            <img src="../img/footer_ewm_02.png" />
+                            <span>快乐购官方微信</span>
+                        </div>
+                        
+                        
+                    </div>     
+                </div>
+                <div class="f_m_bottom">
+                    <ul>
+                        <li><a href="javascript:;">关于快乐购</a><span></span></li>
+                        <li><a href="javascript:;">投资者关系</a><span></span></li>
+                        <li><a href="javascript:;">商家入驻</a><span></span></li>
+                        <li><a href="javascript:;">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--*****************************footer-bottom**********************************************-->
+            <div class="f_bottom">
+                <div class="f_b_top">
+                    <p>
+                         Copyright© 2006-2016 happigo.All Right Reserved 免费服务热线：400-705-111 丨 固话也可拨打：800-705-1111 E-mail：service@happigo.com
+                    </p>
+                    <p>
+                        湘icp备12000157号 信息网络传播视听节目许可证号：1810530
+                    </p>
+
+                </div>
+                <div class="f_b_bottom">
+                    <a href="javascript:;"><img src="../img/foot_img3.png" alt=""/></a>
+                    <a href="javascript:;"><img src="../img/foot_img4.png" alt=""/></a>
+                </div>
+                <div class="final">
+                    
+                </div>
+            </div>
+        </div>
+        <script src="../js/happigo_shopcar.js"></script>
+    </body>
+</html>

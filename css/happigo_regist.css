@@ -1,0 +1,146 @@
+html,body,div,h1,ul,li,a,span,dl,dt,dd,p,img,table,tr,td,form,input,button,select{
+    margin:0;
+    padding:0;
+    font: inherit;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+#header,#former,#footer{
+	width: 1263px;
+}
+#header{
+	height: 150px
+}
+#header .h_login{
+	float: left;
+	margin: 30px 0 0 140px;
+}
+#header .h_img{
+	float: right;
+	margin: 37px 124px 0 0;
+}
+
+#former{
+	height: 625px;
+}
+#former .former{
+	padding-left: 170px;
+	height: 625px;
+}
+#former .f_left{
+	width: 560px;
+	height: 610px;
+	padding-top: 15px;
+	float: left
+}
+#former .f_right{
+	width: 357px;
+	padding-left: 23px;
+	float: left
+}
+#former .f_right form{
+	padding-left: 30px;
+	border-left: 1px solid #f4dede;
+	border-right: 1px solid #f4dede;
+}
+#former .f_right h1{
+	color: #c41f3a;
+    font-size: 22px;
+    height: 56px;
+    font-weight: bold;
+    float: left;
+}
+#former .f_r_div{
+	float: left;
+	color: #8c8c8c;
+	padding: 8px 0 0 115px 
+}
+#former .f_r_div a{
+	float: right;
+	color: #c41f3a;
+   	text-decoration: none;
+   	cursor: pointer;
+}
+#former input{
+	color: #c8c8c8;
+    border: 1px solid #c8c8c8;
+    height: 25px;
+    line-height: 25px;
+    padding: 6px 0 6px 6px;
+    width: 293px;
+    font-size: 12px;
+}
+#former p{
+	height: 30px;
+    line-height: 30px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    width: 100%;
+    color: #000;
+}
+#former .f_r_complete{
+	width: 160px
+}
+#former .f_r_bt{
+    line-height: 25px;
+    padding: 6px 0 6px 6px; 
+    margin-left: 10px;
+    width: 118px;
+    border: 1px solid #c8c8c8;
+    font-size: 12px;
+    font-weight: bold
+}
+#former .f_r_complete1{
+	width: 160px
+}
+#former .f_r_bt1{
+	border: none;
+	width: 100px;
+	line-height: 25px;
+	padding: 6px 0;
+	background: none;
+	color: #000;
+	height: 39px
+}
+#former .f_r_regist{
+	width: 317px;
+    height: 40px;
+    border: none;
+	display: block;
+    color: #fff;
+    line-height: 40px;
+    background-color: #94193f;
+    text-align: center;
+    font-size: 14px;
+    font-family: "宋体";
+    font-weight: bold;
+    margin: 10px 0;
+}
+#former .f_r_cb{
+	width: 12px;
+	height: 12px;
+	border: 1px solid #c8c8c8;
+}
+#former .f_right form{
+	color: #767676;
+}
+
+
+
+
+#footer{
+	height: 157px
+}
+#footer .f_top{
+	height: 75px;
+}
+#footer .f_top p{
+	height: 25px;
+	font-family: Arial;
+    color: #666666;
+	font-size: 12px;
+	text-align: center;
+}
+#footer .f_bottom{
+	padding-left: 325px;
+}

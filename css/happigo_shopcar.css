@@ -1,0 +1,515 @@
+html,body,div,h1,h2,h3,ul,li,a,span,dl,dt,dd,p,img,table,tr,td,form,input,button,select{
+    margin:0;
+    padding:0;
+    font: inherit;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+li{
+    list-style-type: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.ft{
+    float: left;
+}
+#header,#footer{
+    width:100%;
+}
+/*********************************************header*******************************************************/
+#header{
+    height:248px;position: relative;
+}
+#header .header_top{
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    height: 36px;
+    line-height: 36px;
+    color: #8c8c8c;
+    background-color: #fafafa;
+}
+#header .header_top1{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header .h_t_l_span1{
+    font-family: "宋体";
+    vertical-align: middle;
+    color: #8c8c8c;
+    margin-right:10px;
+}
+#header .h_t_l_a1{
+    color: #8c8c8c;
+    font-family: "宋体";
+}
+#header .h_t_l_a2{
+    color: #8c8c8c;
+    font-family: "宋体";
+}
+#header .h_t_l_a1:hover,#header .h_t_l_a2:hover{
+    text-decoration: underline;
+    color: red;
+}
+#header .h_t_right{
+    float: right;
+}
+#header .h_t_r_ul li{
+    height: 36px;
+    line-height: 36px;;
+    margin: 0 6px;
+}
+#header .h_t_r_ul li a{
+    color: #8c8c8c;
+}
+#header .h_t_r_ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#header .h_t_r_ul span{
+    background: #dfdfdf none repeat scroll 0 0;
+    height: 14px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+/*************************header-bottom************************************/
+#header .header_bottom{
+    height: 122px;
+    border-bottom: 1px solid #dfdfdf;
+}
+#header .header_bottom1{
+    width: 1200px;
+    height: 142px;
+    margin: 0 auto;
+    position: relative;
+}
+#header .h_b_left{
+    margin-top: 30px;
+    height: 112px;
+}
+#header .h_b_right{
+    width: 415px;    
+    height: 42px;
+    margin-top: 40px;
+    background: url(../img/order_icon_list.png);
+    position: absolute;
+    top: 20px;
+    right: 0
+}
+/********************************************former*****************************************************/
+#former .former{
+    width: 1200px;
+    margin: 0 auto;
+}
+#former .f_b_tuijian{
+    height: 330px;
+    width: 1149px;
+    padding-left: 51px;
+    padding-top: 20px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+#former .f_b_tui_ul{
+    width: 1100px;
+    height: 330px;
+}
+#former .f_b_tui_li{
+    width: 205px;
+    height: 330px;
+    margin-right: 15px;
+}
+#former .f_b_tui_img{
+    height: 205px;
+    width: 205px
+}
+#former .f_b_tui_p1{
+    height: 18px;
+    overflow: hidden;
+    margin-top: 10px;
+    color: #434343;
+}
+#former .f_b_tui_p2{
+    height: 38px;
+    line-height: 38px;
+    font-size: 20px;
+    color: #94193f;
+    font-family: Arial;
+    font-weight: bold;
+}
+#former .f_b_tui_span{
+    height: 38px;
+    line-height: 38px;
+    font-size: 20px;
+    color: #94193f;
+    font-family: Arial;
+    font-weight: bold;
+}
+#former .f_b_tui_p2_span{
+    color: #969696;
+    font-size: 14px;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+#former .f_b_tui_a{
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #DDDDDD;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: none;
+    color: #E4393C;
+}
+#former .f_title{
+    height: 35px;
+    width: 1186px;
+    margin-top: 20px;
+    border: 1px solid #dadada;
+    background-color: #efefef;
+    padding-left: 12px;
+}
+#former .f_tit_choose{
+    cursor: pointer;
+    display: none
+}
+#former .f_tit_left{
+    width: 792px;
+    font-family: "宋体";
+    line-height: 35px;
+}
+#former .f_tit_right{
+    width: 394px;
+    font-family: "宋体";
+    line-height: 35px;
+    color: #b7a1a8;
+}
+#former .f_tit_span1{
+    margin: 0 100px 0 4px;
+}
+#former .f_tit_span2{
+    margin: 0 65px;
+}
+#former .f_tit_span3{
+    margin-left: 65px;
+}
+#former .f_title2{
+    height: 26px;   
+    width: 1180px;
+    padding-top: 19px;
+    padding-left: 20px;
+    border-bottom: 2px solid #b2b2b2;
+}
+#former .f_tit2_span{
+    background-color: #e60012;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+#former .f_tit2_div{
+    height: 24px;
+    color: #666;
+    float: right;
+    font-size: 12px;
+    line-height: 24px;
+    overflow: hidden;
+    padding: 0 10px 0 0;
+}
+#former .f_tit2_d_bg{
+    height: 22px;
+    width: 66px;
+    margin-top: 1px;
+    background: url("../img/order_icon_list.png") -348px -674px;
+}
+#former .f_shop_list{
+    border: 1px solid #fdf4f7;
+    width: 1198px;
+}
+#former .f_shop{
+    border-bottom: 1px solid #fdf4f7;
+    float: left;
+    width: 100%;
+    height: 100px
+}
+#former .f_s_cb{
+    cursor: pointer;
+    margin-top: 40px;
+    display: none
+}
+#former .f_s_goods{
+    padding: 25px 0 15px;
+    width: 749px;
+    margin-left: 20px
+}
+#former .f_s_g_img{
+    height: 60px;
+    width: 60px
+}
+#former .f_s_g_font{
+    margin-left: 12px;
+    width: 600px;
+    margin-bottom: 5px;
+    color: #643b48
+}
+#former .f_s_price{
+    width: 60px;
+    padding: 25px;
+    color: #643b48
+}
+#former .f_s_number{
+    width: 100px;
+    padding-top: 25px;
+    margin-left: 10px
+}
+#former .f_s_n_a{
+    height: 23px;
+    width: 21px;
+    font-size: 20px;
+    color: #000000;
+    line-height: 21px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #e5e5e4;
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;  
+    display: block;
+    cursor: pointer; 
+}
+#former .f_s_n_a1{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; 
+}
+#former .f_s_n_a2{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; 
+}
+#former .f_s_n_font{
+    height: 19px;
+    width: 40px;
+    color: #777;
+    text-align: center;
+    background-color: #FFF;
+    padding: 2px 4px;
+    border: solid 1px #CCC
+}
+#former .f_s_price1{
+    width: 60px;
+    padding: 25px;
+    color: #643b48
+}
+#former .f_s_del{
+    width: 20px;
+    padding-top: 25px;
+    padding-left: 40px
+}
+#former .f_s_del_a{
+    width: 20px;
+    height: 20px;
+    background: url("../img/order_icon_list.png") 0 -358px; 
+    color: #643b48;
+    display: block;
+}
+/***************************购物总共结算********************************************/
+#former .f_sum{
+    height: 81px;
+    width: 1200px;
+    background-color: #fdf4f7;
+    overflow: hidden;
+    padding: 18px 0;
+}#former .f_sum_left{
+    width: 640px;
+    font-family: "宋体";
+    line-height: 35px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+#former .f_sum_right{
+    width: 280px;
+    font-family: "宋体";
+    line-height: 35px;
+}
+#former .f_sum_p1{
+    height: 45px;
+    line-height: 45px;
+    width: 99px;
+    margin-top: 30px;
+}
+#former .f_sum_p1_num{
+    font-family: Arial;
+    font-size: 18px;
+    color: #94193f;
+}
+#former .f_sum_p2{
+    height: 45px;
+    line-height: 45px;
+    width: 150px;
+    margin-top: 27px;
+}
+#former .f_sum_p2_num{
+    font-family: Arial;
+    font-size: 24px;
+    color: #93193e;
+    font-weight: bold;
+}
+#former .f_sum_result{
+    background-color: #94193f;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 143px;    
+    margin-top: 20px;
+}
+#former .f_like{
+    margin-top: 50px
+}
+#former .f_like_div1{
+    border-bottom: 2px solid #cccccc;
+    width: 1200px;
+    height: 25px;
+}
+#former .f_like_div2{
+    height: 48px;
+    border: 1px solid #eeeeee;
+    margin-top: 20px;
+    color: #AAA;
+    text-align: center;
+    padding: 50px 0;
+}
+/********************************************footer*****************************************************/
+#footer{
+    height: 644px;
+}
+#footer .f_top{
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d7d7d7
+}
+#footer .f_middle{
+    height: 228px;
+    border-bottom: 4px solid #a90202;
+    padding-top: 45px
+}
+#footer .f_m_top1{
+    width: 1200px;
+    margin: 0 auto;
+    height: 190px
+}
+#footer .f_m_top dl{
+    padding: 0 60px 0 50px;
+    float: left
+}
+#footer .f_m_top dt{
+    height: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+#footer .f_m_top dd a{
+    height: 22px;
+    color: #666;
+    font-size: 12px;
+    height: 22px;
+    display: block
+}
+#footer .f_m_t_div{
+    width: 100px;
+    margin-left: 20px
+}
+#footer .f_m_t_div p{
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    height: 31px;
+}
+#footer .f_m_t_div span{
+    font-size: 14px;
+    color: #666666;
+}
+#footer .f_m_bottom{
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    height: 35px
+}
+#footer .f_m_bottom ul{
+    height: 35px;
+    padding-left: 200px
+}
+#footer .f_m_bottom li{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 12px;
+}
+#footer .f_m_bottom a{
+    font-size: 12px;
+    font-family: "宋体";
+    color: #666666;
+}
+#footer .f_m_bottom span{
+    padding-left: 14px;
+    background-color: #fff;
+    border-right: 1px solid #a9a9a9;
+}
+#header .h_script{
+    position: absolute;
+    top: 40px;
+    right: 90px;
+    display: none;
+    padding: 5px;
+    border: 1px solid #f4e9e9;
+    background: #fff;
+}
+#header .h_script p{
+    text-align: center
+}
+#header .h_script1{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    border: 1px solid #f4e9e9;
+    padding: 12px 8px 0 8px;
+    background: #fff;
+    display: none
+}
+#header .h_script1 li{
+    float: none;
+    padding-bottom:8px 
+}
+#header .h_script1 li a{
+    color: #8c8c8c; 
+}
+#header .h_script1 li a:hover{
+    color: red;
+    text-decoration: underline; 
+}
+
+/*************************************footer-bottom*****************************************************/
+#footer .f_bottom{
+    height: 183px;
+    background: #f3f3f3
+}
+#footer .f_b_top{
+    height: 75px;
+    padding-top: 18px
+}
+#footer .f_b_top p{
+    height: 25px;
+    font-family: Arial;
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+}
+#footer .f_b_bottom{
+    padding-left: 325px;
+}
+#footer .final{
+    height: 18px
+}
